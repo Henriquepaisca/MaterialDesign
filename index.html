@@ -5,107 +5,80 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Start  materialize - Materialize</title>
+  <title>Relatorio agronomico</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+
+
 <body>
-  <!-- <div class="card-panel teal lighten-2">Essa e a cor do painel</div> -->
-   <div class="card-panel teal black">
-     <span class="white-text text-darken-2"> Painel preto com letra branca</span>
-   </div>
-
-   <!-- Container -->
-   <div class="container">
-     <div class="row">
-       <div class=" card-panel red white-text col s12">Uma div com 12 colunas de tamanho</div>
-       <div class=" card-panel red darken-4 white-text col s6">Uma div com 6 colunas de tamanho</div>
-       <div class=" card-panel red darken-4 white-text col s6">Uma div com 6 colunas de tamanho</div>
-
-       </div>
-   </div>
-
-<div class="valign-wrapper">
-   <div class="dividir"></div>
-   <div class=" card-panel orange selection">
-     <h5 class="valign">Section 1</h5>
-     <p>texto para a seção 1</p>
-   </div>
-   <div class="divider"></div>
-   <div class=" card-panel green accent-4 section">
-      <h5>Selection 2</h5>
-      <p>Texto para a seção 2</p>
-    </div>
-    <div class="divider"></div>
-    <div class=" card-panel orange darken-2 section">
-      <h5>Section 3</h5>
-      <p>Texto para a seção 3</p>
-   </div>
-</div>
 
 
-   <div class="row">
-   <div class=" card-panel purple white-text col s12"><p>s12</p></div>
 
-   <div class=" card-panel green white-text col s12 m4 l2"><p>s12 m4</p></div>
-   <div class=" card-panel green white-text col s12 m4 l8"><p>s12 m4</p></div>
-   <div class=" card-panel green white-text col s12 m4 l2"><p>s12 m4</p></div>
- </div>
- <div class="row">
-   <div class=" card-panel blue white-text col s12 m6 l3"><p>s12 m6 l3</p></div>
-   <div class=" card-panel blue white-text col s12 m6 l3"><p>s12 m6 l3</p></div>
-   <div class=" card-panel blue white-text col s12 m6 l3"><p>s12 m6 l3</p></div>
-   <div class=" card-panel blue white-text col s12 m6 l3"><p>s12 m6 l3</p></div>
- </div>
-
-<div class="row">
-  <div class=" card-panel yellow darken-1 grid-example col s12"><span class="flow-text">Estou sempre ocupando a largura total(col s12)</span></div>
-  <div class=" card-panel yellow darken grid-example col s12 m6"><span class="flow-text">Estou ocupando a largura toral em dispositivo móveis(col s12 m6)</span></div>
-</div>
-<div class="valign-wrapper">
-  <h5 class="valign">Isto deve estar alinhado verticalmente</h5>
-</div>
-
-<div>
-  <h5 class="left-align"> Isto deve estar alinhado a esquerda</h5>
-</div>
-<div>
-    <h5 class="right-align"> Isto deve estar alinhado a direita</h5>
-</div>
-<div>
-    <h5 class="center-align"> Isto deve estar centralizado</h5>
-</div>
-
-
-  <div class=" card-panel hoverable center-align">
-    <img  style= "width: 100%;" height=100:   src="http://files.vividscreen.info/soft/0cf0b9281714c9353dcb80d5d574a272/Pangong-Tso-lake-in-Tibet-1920x1200.jpg">
-  </div>
-
-  <div class="col s12 m8 offset-m2 16 offset-13">
-    <div class="card-panel grey lighten-5 z-depth-1">
-      <div class="row valign-wrapper">
-        <div class="col s2">
-          <img src="/home/micro01/Workspace/MaterialDesign/imagens/bico.jpg" alt="" class="circle responsive-img">
+      <nav>
+        <div class="nav-wraper white"
+            <a href="#" class="brand-logo right"><img width="50" height="50" id='logopos' src="imagens/bico.jpg"></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <li><span class="green-text"><h5> Relatorio agronomigo</h5></span></li>
+            </ul>
         </div>
-        <div class="col s10">
-          <span class="black-text">
-            Essa é uma imagem quadrada. Adcionada a classe "circle" fará ela aparecer como circular.
-          </span>
-        </div>
+      </nav>
+
+
+
+ <div class="container">
+     <div class="wraper" style="width: 1000px;border: solid 2px #333;padding: 10px;">
+       <div class="row">
+          <div class="black-text text-darken-2 col s6">
+          <p>Nome da Área: Talhão</p>
+          <p>Area:</p>
+          <p>Data da imagem</p>
+          </div>
+          <div class="black-text text-darken-2 col s6">
+          <p>Nome do proprietario: Antonio</p>
+          <p>Relatorio Gerado por: Ricardo</p>
+          <p>Data do relatorio: </p>
+          </div>
       </div>
     </div>
   </div>
 
-<div class="video-container">
-  <iframe width="853" height="480" src="/home/micro01/Workspace/MaterialDesign/videos/zica.mp4" frameborder="0" allowfullscreen></iframe>
+  <div class="content" style="width: 950px;height: 300px;border: solid 2px #333;text-align: center; padding: 5px;margin:20px;">
+
+      <div class="row">
+        <div class="col s6">
+            <img src="bico.jpg" style="float: left;overflow: hidden;width: 200px;margin-right: 15px;margin-bottom: 8px;">
+      </div>
+      <div class="col s6">
+          <img src="bico.jpg" style="float: left;overflow: hidden;width: 200px;margin-right: 15px;margin-bottom: 8px;">
+  </div>
+</div>
 </div>
 
-<video class="responsive-video" controls>
-  <source src="/home/micro01/Workspace/MaterialDesign/videos/zica.mp4" type="video/mp4">
-</video>
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+    <div class="input-field col s12">
+      <textarea id="textarea1" class="materialize-textarea"></textarea>
+      <label for="textarea1 ">Análise:</label>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="row">
+   <div class="black-text text-darken-2 col s6">
+   <p>Responsavel tecnico:(nome do usuario)</p>
+   </div>
+   <div class="black-text text-darken-2 col s6">
+   <p>Assinatura:____________________________________________________________________</p>
+   </div>
+</div>
+
+
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
